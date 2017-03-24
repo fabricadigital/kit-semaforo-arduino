@@ -1,0 +1,281 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:kit-semaforo-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED D1
+U 1 1 588771FF
+P 1500 2350
+F 0 "D1" H 1500 2450 50  0000 C CNN
+F 1 "LED" H 1500 2250 50  0000 C CNN
+F 2 "leds-thru:LED_5MM_T1-3_4" H 1500 2350 50  0001 C CNN
+F 3 "" H 1500 2350 50  0000 C CNN
+	1    1500 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 58877329
+P 1900 2350
+F 0 "D2" H 1900 2450 50  0000 C CNN
+F 1 "LED" H 1900 2250 50  0000 C CNN
+F 2 "leds-thru:LED_5MM_T1-3_4" H 1900 2350 50  0001 C CNN
+F 3 "" H 1900 2350 50  0000 C CNN
+	1    1900 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 5887734B
+P 2300 2350
+F 0 "D3" H 2300 2450 50  0000 C CNN
+F 1 "LED" H 2300 2250 50  0000 C CNN
+F 2 "leds-thru:LED_5MM_T1-3_4" H 2300 2350 50  0001 C CNN
+F 3 "" H 2300 2350 50  0000 C CNN
+	1    2300 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 5887737E
+P 3100 2350
+F 0 "D4" H 3100 2450 50  0000 C CNN
+F 1 "LED" H 3100 2250 50  0000 C CNN
+F 2 "leds-thru:LED_5MM_T1-3_4" H 3100 2350 50  0001 C CNN
+F 3 "" H 3100 2350 50  0000 C CNN
+	1    3100 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D5
+U 1 1 588773C2
+P 3500 2350
+F 0 "D5" H 3500 2450 50  0000 C CNN
+F 1 "LED" H 3500 2250 50  0000 C CNN
+F 2 "leds-thru:LED_5MM_T1-3_4" H 3500 2350 50  0001 C CNN
+F 3 "" H 3500 2350 50  0000 C CNN
+	1    3500 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1500 1300 1500 2200
+Wire Wire Line
+	1900 1300 1900 2200
+Wire Wire Line
+	2300 1300 2300 2200
+Wire Wire Line
+	3100 1300 3100 2200
+Wire Wire Line
+	3500 1300 3500 2200
+$Comp
+L R R1
+U 1 1 58877498
+P 1500 2750
+F 0 "R1" V 1580 2750 50  0000 C CNN
+F 1 "R" V 1500 2750 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1430 2750 50  0001 C CNN
+F 3 "" H 1500 2750 50  0000 C CNN
+	1    1500 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R2
+U 1 1 588774EF
+P 1900 2750
+F 0 "R2" V 1980 2750 50  0000 C CNN
+F 1 "R" V 1900 2750 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1830 2750 50  0001 C CNN
+F 3 "" H 1900 2750 50  0000 C CNN
+	1    1900 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R3
+U 1 1 58877520
+P 2300 2750
+F 0 "R3" V 2380 2750 50  0000 C CNN
+F 1 "R" V 2300 2750 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2230 2750 50  0001 C CNN
+F 3 "" H 2300 2750 50  0000 C CNN
+	1    2300 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R4
+U 1 1 58877554
+P 3100 2750
+F 0 "R4" V 3180 2750 50  0000 C CNN
+F 1 "R" V 3100 2750 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3030 2750 50  0001 C CNN
+F 3 "" H 3100 2750 50  0000 C CNN
+	1    3100 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R5
+U 1 1 5887759B
+P 3500 2750
+F 0 "R5" V 3580 2750 50  0000 C CNN
+F 1 "R" V 3500 2750 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3430 2750 50  0001 C CNN
+F 3 "" H 3500 2750 50  0000 C CNN
+	1    3500 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1500 2900 1500 3100
+Wire Wire Line
+	1500 3100 4200 3100
+Wire Wire Line
+	3500 3100 3500 2900
+Wire Wire Line
+	3100 2900 3100 3100
+Connection ~ 3100 3100
+Wire Wire Line
+	2300 2900 2300 3100
+Connection ~ 2300 3100
+Wire Wire Line
+	1900 2900 1900 3100
+Connection ~ 1900 3100
+Wire Wire Line
+	1500 2600 1500 2500
+Wire Wire Line
+	1900 2600 1900 2500
+Wire Wire Line
+	2300 2600 2300 2500
+Wire Wire Line
+	3100 2600 3100 2500
+Wire Wire Line
+	3500 2600 3500 2500
+$Comp
+L Buzzer BZ1
+U 1 1 588776B0
+P 4400 2500
+F 0 "BZ1" H 4550 2550 50  0000 L CNN
+F 1 "Buzzer" H 4550 2450 50  0000 L CNN
+F 2 "Buzzers_Beepers:BUZZER" V 4375 2600 50  0001 C CNN
+F 3 "" V 4375 2600 50  0000 C CNN
+	1    4400 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3100 4200 2600
+Wire Wire Line
+	4200 2600 4300 2600
+Connection ~ 3500 3100
+Wire Wire Line
+	4200 2400 4300 2400
+Wire Wire Line
+	4200 1300 4200 2400
+$Comp
+L GNDREF #PWR01
+U 1 1 5887776F
+P 2700 3100
+F 0 "#PWR01" H 2700 2850 50  0001 C CNN
+F 1 "GNDREF" H 2700 2950 50  0000 C CNN
+F 2 "" H 2700 3100 50  0000 C CNN
+F 3 "" H 2700 3100 50  0000 C CNN
+	1    2700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X04 P1
+U 1 1 5887798C
+P 2750 3850
+F 0 "P1" H 2750 4100 50  0000 C CNN
+F 1 "CONN_02X04" H 2750 3600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 2750 2650 50  0001 C CNN
+F 3 "" H 2750 2650 50  0000 C CNN
+	1    2750 3850
+	1    0    0    -1  
+$EndComp
+Text Label 2700 3100 0    60   ~ 0
+GND
+Text Label 2300 1300 3    60   ~ 0
+COCHES-VERDE
+Text Label 1900 1300 3    60   ~ 0
+COCHES-AMBAR
+Text Label 1500 1300 3    60   ~ 0
+COCHES-ROJO
+Text Label 1400 3900 0    60   ~ 0
+PEATONES-VERDE
+Text Label 3100 1300 3    60   ~ 0
+PEATONES-ROJO
+Text Label 4200 1300 3    60   ~ 0
+ZUMBADOR
+Wire Wire Line
+	1400 3700 2500 3700
+Wire Wire Line
+	1400 3800 2500 3800
+Wire Wire Line
+	1400 3900 2500 3900
+Wire Wire Line
+	1400 4000 2500 4000
+Wire Wire Line
+	3000 3700 4100 3700
+Wire Wire Line
+	4100 3800 3000 3800
+Wire Wire Line
+	4100 3900 3000 3900
+Wire Wire Line
+	4100 4000 3000 4000
+Text Label 1400 3800 0    60   ~ 0
+PEATONES-ROJO
+Text Label 1400 4000 0    60   ~ 0
+ZUMBADOR
+Text Label 3500 1300 3    60   ~ 0
+PEATONES-VERDE
+Text Label 4100 4000 2    60   ~ 0
+COCHES-VERDE
+Text Label 4100 3900 2    60   ~ 0
+COCHES-AMBAR
+Text Label 4100 3800 2    60   ~ 0
+COCHES-ROJO
+Text Label 1450 3700 0    60   ~ 0
+GND
+Text Label 1400 3700 0    60   ~ 0
+GND
+Text Label 4100 3700 2    60   ~ 0
+GND
+$EndSCHEMATC
