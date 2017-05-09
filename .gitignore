@@ -1,3 +1,5 @@
 # Backups
 *.kicad_pcb-bak
 *.bak
+pcb/fab/*.zip
+pcb/_saved_*
