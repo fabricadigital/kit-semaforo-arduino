@@ -3,3 +3,4 @@
 *.bak
 pcb/fab/*.zip
 pcb/_saved_*
+3d/*.fcstd1
