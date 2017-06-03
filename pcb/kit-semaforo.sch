@@ -166,7 +166,7 @@ $EndComp
 Wire Wire Line
 	1500 2900 1500 3100
 Wire Wire Line
-	1500 3100 4200 3100
+	1500 3100 5100 3100
 Wire Wire Line
 	3500 3100 3500 2900
 Wire Wire Line
@@ -272,10 +272,26 @@ Text Label 4100 3900 2    60   ~ 0
 COCHES-AMBAR
 Text Label 4100 3800 2    60   ~ 0
 COCHES-ROJO
-Text Label 1450 3700 0    60   ~ 0
-GND
-Text Label 1400 3700 0    60   ~ 0
-GND
 Text Label 4100 3700 2    60   ~ 0
 GND
+Text Label 1400 3700 0    60   ~ 0
+BOTON
+$Comp
+L Jumper SW1
+U 1 1 59328FB2
+P 5100 2500
+F 0 "SW1" H 5100 2650 50  0000 C CNN
+F 1 "Jumper" H 5100 2420 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 5100 2500 50  0001 C CNN
+F 3 "" H 5100 2500 50  0001 C CNN
+	1    5100 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5100 2200 5100 1300
+Wire Wire Line
+	5100 3100 5100 2800
+Connection ~ 4200 3100
+Text Label 5100 1300 3    60   ~ 0
+BOTON
 $EndSCHEMATC
